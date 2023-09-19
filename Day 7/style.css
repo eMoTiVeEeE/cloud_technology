@@ -1,0 +1,100 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+}
+.navBar{
+    background-color: lightskyblue;
+    color: darkmagenta;
+}
+.nav_link{
+    color: hotpink;
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.nav_link:hover{
+    color: crimson;
+    background-color: blue;
+    font-weight: 900;
+}
+.container{
+    background-color: midnightblue;
+    padding: 2em;
+}
+.img_container{
+    width: 43.52%;
+    margin: 2% auto;
+    border: ridge goldenrod 1.5em;
+}
+.img{
+    
+    width: 100%;
+    display: block;
+}
+.title{
+    text-align: center;
+    position: relative;
+    top: 2%;
+    left: 5%;
+    right: 5%;
+    color: royalblue;
+    font-size: 3em;
+    font-family: monospace;
+}
+.p1{
+    position: absolute;
+    top: 0%;
+    left: 2%;
+    font-style: italic;
+    font-size: 1.1em;
+}
+.p2{
+    position: absolute;
+    right: 2%;
+    bottom: 40%;
+    font-style: italic;
+    font-size: 1.1em;
+}
+.container2{
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img_cont2{
+    width: 28%;
+    margin: 5% 2%;
+}
+.sepia1{
+    filter: sepia(10%);
+}
+.sepia2{
+    filter: sepia(60%);
+}
+.sepia3{
+    filter: sepia(100%);
+}
+.blur1{
+    filter: blur(1px);
+}
+.blur2{
+    filter: blur(5px);
+}
+.blur3{
+    filter: blur(10px);
+}
+.invert1{
+    filter: invert(2%);
+}
+.invert2{
+    filter: invert(40%);
+}
+.invert3{
+    filter: invert(100%);
+}
+.credits{
+    text-align: center;
+    background-color: cadetblue;
+    padding: 1em;
+}
