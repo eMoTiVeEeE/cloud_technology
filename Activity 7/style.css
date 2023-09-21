@@ -1,0 +1,37 @@
+*{box-sizing: border-box;}
+.title{
+    text-align: center;
+    color: darkviolet;
+}
+.subtitle{
+    background-color: gray;
+    padding: 1em;
+}
+.img_container{
+    width: 80%;
+    padding: 3em;
+    margin: 2em auto;
+    position: relative;
+}
+img{
+    width: 50%;
+    height: 50%;
+    display: block;
+}
+.invert1{
+    filter: invert(100%);
+}
+.blur1{
+    filter: blur(5px);
+}
+.sepia1{
+    filter: sepia(100%);
+}
+.p1{
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    right: 0%;
+    bottom: 0%;
+    color: aliceblue;
+}
