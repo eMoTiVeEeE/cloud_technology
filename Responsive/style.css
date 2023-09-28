@@ -12,7 +12,7 @@ html{
 }
 .links{
     display: inline-block;
-    padding: 1em 2em;
+    padding: 1em 3em;
     color: whitesmoke;
 }
 .links:hover{
@@ -45,6 +45,8 @@ img{
     font-family: "Arial Black";
 }
 /*--------  CARDS ----------*/
+.title{ border-bottom: ridge 1px crimson;
+padding-top: 2em;}
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -80,4 +82,11 @@ img{
 .cardLink:hover{
     background-color: darkgoldenrod;
     color: darkblue;
+}
+/*-----FOOTER -------*/
+.copyrighted{
+    background-color: black;
+    color: whitesmoke;
+    padding: 1em;
+    text-align: center;
 }

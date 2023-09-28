@@ -1,4 +1,18 @@
 @media only screen and (max-width: 1000px) {
-    body{ background-color:beige;}
     .intro{width: 80%;}
+}
+@media only screen and (max-width: 800px) {
+    .intro{ width: 96%;}
+    .card{ width: 60%;
+        margin: 5% auto;
+    }
+}
+.links{width: 32.9%;
+padding: 1em 0em;
+text-align: center;
+}
+@media only screen and (max-width: 600px){
+    .links{width: 31%;}
+    .card{width: 80%;}
+    .intro_pg{font-size: 0.5em;}
 }
