@@ -1,0 +1,21 @@
+*{box-sizing: border-box;}
+html{scroll-behavior:smooth;}
+.title{
+    text-align: center;
+    transition: ease-in 2s;
+}
+.img1{
+    width: 1770px; 
+    background-color: black;
+}
+.intromsg{
+    transform: translateY(-132px);
+    text-align: center;
+    font-family:'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande',
+     'Lucida Sans', Arial, sans-serif;
+}
+.intromsg:hover{
+    color: rgb(255, 56, 56);
+    transition: 400ms;
+}
