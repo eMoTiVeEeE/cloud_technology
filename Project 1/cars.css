@@ -1,0 +1,38 @@
+*{box-sizing: border-box;}
+body{
+    background-color: rgb(107, 142, 67);
+}
+.title{
+    text-decoration: underline;
+    font-style: italic;
+    color: rgb(112, 66, 20);
+    font-size: 3em;
+}
+.subtitle{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 30px;
+}
+
+img {
+    width: 800px;
+    height: 450px;
+    display: inline-block;
+    align-items: center;
+    margin-top: 30px;
+}
+.chargerparagraph{
+    font-size: 1.42em;
+}
+ul {
+    font-size: 1.42em; 
+}
+li {
+    font-size: 1em;
+}
+.camaroparagraph{
+    font-size: 1.42em;
+}
+.no{
+    font-size: 2.5em;
+    color: gold;
+}

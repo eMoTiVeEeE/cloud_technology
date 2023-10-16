@@ -1,0 +1,25 @@
+*{box-sizing: border-box;}
+body{
+    background-image: url(Images/intro-background);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: opacity 0.4s ease-in-out;
+    opacity: 1;
+}
+.title{
+    text-align: center;
+    font-style: italic;
+    font-size: 250%;
+    overflow: hidden;
+}
+.container {
+    text-decoration:underline;
+    position: relative;
+    height: 100vh;
+    background-image: url(Images/intro-background);
+    background-size: cover;
+    font-size: 150%;
+    text-align: center;
+    color: rgb(177, 81, 16);
+    line-height: 1.0;
+}
