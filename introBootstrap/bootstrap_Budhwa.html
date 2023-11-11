@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Christian Budhwa</title>
+  </head>
+  <body>
+    <h1 class="display-3 text-info bg-primary center text-center">Christian Budhwa</h1>
+    <p>Use of a mark in <b class="mark">Bootstrap</b></p>
+    <p>Use <kbd style="background-color: red;">ctrl + p</kbd> to open the Print dialog box</p>
+    <p class="blockquote-footer">from wikipedia.org website</p>
+    <figure class="p-3">
+        <img src="jw.webp" alt="Juice WRLD image" width="28%" class="rounded">
+        <img src="jw.webp" alt="Juice WRLD image" width="28%" class="rounded-circle m-3">
+        <img src="jw.webp" alt="Juice WRLD image" width="28%" class="img-thumbnail m-3">
+    </figure>
+
+    <h2 class="bg-info text-primary text-center p-3">Basic List Groups</h2>
+    <h3>Food Shopping</h3>
+    <ul class="list-group m-3 ">
+      <li class="list-group-item">Apple</li>
+      <li class="list-group-item">Cereal</li>
+      <li class="list-group-item active">Milk</li>
+    </ul>
+    <h2 class="bg-info text-primary text-center p-3">Dropdown</h2>
+    <div class="dropdown m-4">
+      <button type="button" class="dropdown-toggle btn btn-secondary" data-bs-toggle="dropdown">CUNY Community College</button>
+    <ul class="dropdown-menu">
+      <li class="bg-dark text-white"><h5 class="dropdown-header">Borough of Queens</h5></li>
+      <li><a href="http://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">QCC</a></li>
+      <li><a href="http://www.laguardia.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">La Guardia</a></li>   
+    
+      <li class="bg-dark text-white"><h5 class="dropdown-header">Borough of Manhattan</h5></li>
+      <li><a href="http://www.bmcc.cuny.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">BMCC</a></li>
+
+    </ul>
+    </div>
+
+    <h2 class="bg-info text-primary text-center p-3">Group Dropdown Menu</h2>
+    <div class="btn-group">
+      <button type="button" class="btn-danger btn">Home</button>
+      <button type="button" class="btn-danger btn dropdown-toggle" data-bs-toggle="dropdown">CUNY Community College</button>
+      <button type="button" class="btn-danger btn">Bootstrap images</button>
+      <ul class="dropdown-menu">
+      <li class="bg-dark text-white"><h5 class="dropdown-header">Borough of Queens</h5></li>
+      <li><a href="http://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">QCC</a></li>
+      <li><a href="http://www.laguardia.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">La Guardia</a></li>   
+      
+      <li class="bg-dark text-white"><h5 class="dropdown-header">Borough of Manhattan</h5></li>
+      <li><a href="http://www.bmcc.cuny.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">BMCC</a></li>
+  
+      </ul>
+    </div>
+
+    <h2 class="bg-warning text-primary text-center p-3">Collapsible</h2>
+    <div class="btn-group" role="group">
+    
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#baby">Scrap Baby</button>
+
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#puppet">The Puppet Master/The Marionette</button>
+
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#nightmare">Nightmare</button>
+
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#goldenfreddy">Golden Freddy</button>
+    </div>
+
+    <div id="baby" class="collapse">
+      <p class="p-3">Possessed by Elizabeth Afton and made up of Ennard's exoskeleton</p>
+      <img src="images/scrapbaby.webp" alt="image of scrap baby" width="50%" class="mx-auto d-block rounded-circle">
+      <p class="blockquote-footer m-4">Photo by Scott Cawthon</p>
+    </div>
+
+
+    <div id="puppet" class="collapse">
+      <p class="p-3">Possessed by Charlotte</p>
+      <img src="images/puppet.jpg" alt="image of the puppet master" width="50%" class="mx-auto d-block rounded-circle">
+      <p class="blockquote-footer m-4">Photo by Scott Cawthon</p>
+    </div>
+
+
+    <div id="nightmare" class="collapse">
+      <p class="p-3">William Afton's nightmare physical form</p>
+      <img src="images/nightmare.jpg" alt="image of nightmare" width="50%" class="mx-auto d-block rounded-circle">
+      <p class="blockquote-footer m-4">Photo by Scott Cawthon</p>
+    </div>
+
+    <div id="goldenfreddy" class="collapse">
+      <p class="p-3">Possessed by Cassidy and Crying Child</p>
+      <img src="images/gfreddy.png" alt="image of golden freddy" width="50%" class="mx-auto d-block rounded-circle">
+      <p class="blockquote-footer m-4">Photo by Scott Cawthon</p>
+    </div>
+    </div>
+
+<h1 class="bg-light mt-5 p-3">Layouts</h1>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4 col-sm-11 bg-primary p-3 m-4"><img src="images/scrapbaby.webp" width="100%"></div>
+    <div class="col-md-6 col-sm-11 bg-dark p-3 m-4 text-light rounder"><h2>Circus Baby</h2><p>Column Right</p></div>
+  </div>
+</div>
+
+<h1 class="bg-light mt-5 p-3">Cards</h1>
+<div class="container-fluid">
+  <div class="row">
+    <section class="card col-lg-3 m-4 col-sm-10">
+      <div class="card-header">
+        <h2>Marionette</h2>
+        <p>Five Nights At Freddy's Animatronic</p>
+      </div>
+      <div class="card-body">
+        <img src="images/puppet.jpg" alt="card-img img-fluid">
+        <p class="card-text p-2">Marionette is an animatronic from Five Nights at Freddy's 2. He jumpscares you when you forget to wind up the music box in the camera.</p>
+      </div>
+      <div class="card-footer">
+        <a href="" class="card-link">About me</a>
+        <a href="" class="card-link">My pets</a>
+        <a href="" class="card-link">Client Feedbacks</a>
+      </div>
+    </section>
+    <section class="card col-lg-3 col-sm-10 m-4 bg-info">
+      <img src="images/gfreddy.png" class="card-img-top img-fluid" width="100%">
+      <div class="card-body">
+        <h2 class="card-title">Golden Freddy</h2>
+        <p class="card-subtitle"><i class="text-muted">The Crying Child</i></p>
+        <p class="card-text mt-3">Golden Freddy is an animatronic who is in the first video game. 
+          This animatronic is the first out of many with spring locks, 
+          which was used to cause the bite of '83. 
+          A crying child, who was the son of the maker of the animatronics, 
+          was bullied and put into Golden Freddy's mouth, and his tears tampered with the spring locks, 
+          which made Golden Freddy's mouth SHUT on his head, killing the child, 
+          and putting his soul into the animatronic suit. </p>
+          <a href="" class="card-link text-secondary">About Me</a>
+          <a href="" class="card-link text-secondary">My Pets</a>
+          <a href="" class="card-link text-secondary">Client Feedbacks</a>
+      </div>
+    </section>
+
+    <section class="card col-lg-3 col-sm-10 m-4">
+      <div class="card-body">
+        <img src="images/nightmare.jpg" class="card-img">
+        <h2 class="card-title">Nightmare</h2>
+        <p><i class="card-subtitle">Five Nights At Freddy's 4</i></p>
+        <p class="card-text">Nightmare is in the fourth Five Nights At Freddy's video game. 
+          He, and other nightmare characters were created to scare the Crying Child, 
+          who was not in Golden Freddy at the time, 
+          to keep him away from the other animatronics because his dad was trying to protect him.</p>
+        
+        <ul class="list-group list-group-flush">
+        <a href="" class="card-link">About Me</a>
+        <a href="" class="card-link">My Pets</a>
+        <a href="" class="card-link">Client Feedbacks</a>
+        </ul>
+  
+    </section>
+  </div>
+</div>
+
+<h1 class="bg-light mt-5 p-3">Class Activity</h1>
+<div class="container-fluid">
+  <div class="row">
+    <section class="card col-lg-2 col-sm-10 m-4 bg-info">
+      <img src="images/puppet.jpg" class="card-img-top img-fluid" width="100%">
+      <div class="card-body">
+        <h2 class="card-title">Marionette</h2>
+        <p class="card-subtitle"><i class="text-muted">Charlotte</i></p>
+        <p class="card-text mt-3">Marionette is an animatronic from Five Nights at Freddy's 2. He jumpscares you when you forget to wind up the music box in the camera.</p>
+          <a href="" class="card-link text-secondary">About Me</a>
+          <a href="" class="card-link text-secondary">My Pets</a>
+          <a href="" class="card-link text-secondary">Client Feedbacks</a>
+      </div>
+    </section>
+
+    <section class="card col-lg-2 col-sm-10 m-4 bg-info">
+      <img src="images/nightmare.jpg" class="card-img-top img-fluid" width="100%">
+      <div class="card-body">
+        <h2 class="card-title">Nightmare</h2>
+        <p class="card-subtitle"><i class="text-muted">William</i></p>
+        <p class="card-text mt-3">Nightmare is in the fourth Five Nights At Freddy's video game. 
+          He, and other nightmare characters were created to scare the Crying Child, 
+          who was not in Golden Freddy at the time, 
+          to keep him away from the other animatronics because his dad was trying to protect him.</p>
+          <a href="" class="card-link text-secondary">About Me</a>
+          <a href="" class="card-link text-secondary">My Pets</a>
+          <a href="" class="card-link text-secondary">Client Feedbacks</a>
+      </div>
+    </section>
+
+    <section class="card col-lg-2 col-sm-10 m-4 bg-info">
+      <img src="images/witheredchica.png" class="card-img-top img-fluid" width="100%">
+      <div class="card-body">
+        <h2 class="card-title">Withered Chica</h2>
+        <p class="card-subtitle"><i class="text-muted">Susie</i></p>
+        <p class="card-text mt-3">Withered Chica is supposedly the first of the animatronics. 
+          She has witnessed everything. After shhe was created, she witnessed every killing and possession after her. 
+          The Chica shell is possessed by Susie, </p>
+          <a href="" class="card-link text-secondary">About Me</a>
+          <a href="" class="card-link text-secondary">My Pets</a>
+          <a href="" class="card-link text-secondary">Client Feedbacks</a>
+      </div>
+    </section>
+    
+    <section class="card col-lg-2 col-sm-10 m-4 bg-info">
+      <img src="images/gfreddy.png" class="card-img-top img-fluid" width="100%">
+      <div class="card-body">
+        <h2 class="card-title">Golden Freddy</h2>
+        <p class="card-subtitle"><i class="text-muted">The Crying Child</i></p>
+        <p class="card-text mt-3">Golden Freddy is an animatronic who is in the first video game. 
+          This animatronic is the first out of many with spring locks, 
+          which was used to cause the bite of '83. 
+          A crying child, who was the son of the maker of the animatronics, 
+          was bullied and put into Golden Freddy's mouth, and his tears tampered with the spring locks, 
+          which made Golden Freddy's mouth SHUT on his head, killing the child, 
+          and putting his soul into the animatronic suit. </p>
+          <a href="" class="card-link text-secondary">About Me</a>
+          <a href="" class="card-link text-secondary">My Pets</a>
+          <a href="" class="card-link text-secondary">Client Feedbacks</a>
+      </div>
+    </section>
+  </div>
+</div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
