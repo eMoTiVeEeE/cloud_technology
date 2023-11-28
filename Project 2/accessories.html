@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Store</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="checkout.html">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="accessories.html">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfront/5.3.45/css/materialdesignicons.css"
+        integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="project2.html">Game Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="project2.html">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="accessories.html">Accessories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#checkoutModal">Checkout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cards Section -->
+    <main class="row">
+        <section>
+            <div class="container mt-3">
+                <div class="row">
+                    <!-- Cards -->
+                    <div class="vh col-lg-4 mb-4">
+                        <div class="card border-white">
+                            <img src="images/xboxcontroller.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Xbox Controller</h5>
+                                <p class="card-text">The Xbox Wireless Controller is the primary game controller for the
+                                    Xbox One and Xbox Series X/S home video game consoles, also the official controller
+                                    for use in Windows-based PCs, and compatible with other operating systems such as
+                                    macOS, Linux, iOS, and Android. The controller maintains the overall layout found in
+                                    the Xbox 360 controller, but with various tweaks to its design, such as a revised
+                                    shape, redesigned analog sticks, shoulder buttons, and triggers, along with new
+                                    rumble motors within the triggers to allow for directional haptic feedback.</p>
+                                <div class="text-center"><button type="button" class="btn btn-primary"
+                                        data-bs-target="#xbox" data-bs-toggle="modal">Buy Now</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vh col-lg-4 mb-4">
+                        <div class="card border-white">
+                            <img src="images/ps5controller.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Playstation Controller</h5>
+                                <p class="card-text">DualSense is the latest controller for PlayStation consoles,
+                                    specifically the PlayStation 5. The DualSense has many new features never before
+                                    seen in consoles, like advanced Haptic Feedback. It was announced in June 2020 and
+                                    released with the console in November of the same year.</p>
+                                <div class="text-center"><button type="button" class="btn btn-primary"
+                                        data-bs-target="#modal12" data-bs-toggle="modal">Buy Now</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vh col-lg-4 mb-4">
+                        <div class="card border-white">
+                            <img src="images/keyboard.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Hyper X Gaming Keyboard</h5>
+                                <p class="card-text">The keyboard is a primary method on input for PC gaming, and
+                                    computing in general. Keyboards can some with a PS/2 connector or a USB 2.0
+                                    connector, but only USB are widespread use today. Keyboards provide numerous buttons
+                                    for the gamer to use, where each button is given a separate function based on the
+                                    game being played. It is also used for text chat in games that support it. All
+                                    keyboards come with a minimum ~104 keys, with gaming keyboards providing more.</p>
+                                <div class="text-center"><button type="button" class="btn btn-primary"
+                                        data-bs-target="#modal13" data-bs-toggle="modal">Buy Now</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vh col-lg-4 mb-4">
+                        <div class="card border-white">
+                            <img src="images/headphones.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Hyper X Gaming Headphones</h5>
+                                <p class="card-text">Headphones are a pair of small loudspeaker drivers worn on or
+                                    around the head over a user's ears. They are electroacoustic transducers, which
+                                    convert an electrical signal to a corresponding sound. Headphones let a single user
+                                    listen to an audio source privately, in contrast to a loudspeaker, which emits sound
+                                    into the open air for anyone nearby to hear.</p>
+                                <div class="text-center"><button type="button" class="btn btn-primary"
+                                        data-bs-target="#modal14" data-bs-toggle="modal">Buy Now</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--- Cards Checkout --->
+
+    <section id="xbox" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal11Label">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <header class="modal-header bg-primary text-light">
+                    <h2 class="modal-title bg-primary" id="modal11Label">Added to Cart</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </header>
+
+                <main class="modal-body row">
+                    <div class="col-lg-6">
+                        <em><strong>Xbox Controller</strong></em>
+                        <figure>
+                            <img src="Images/xboxcontroller.jpg" width="85%" class="rounded m-1">
+                            <figcaption class="p-2"></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <em><strong>
+                                <p class="card-title"></p>
+                            </strong></em>
+                        <p><i class="card-subtitle"></i></p>
+                        <strong class="text-danger display-4 p-2">$49.99</strong>
+                    </div>
+                </main>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                    <a href="checkout.html" class="btn btn-warning">Click to buy!</a>
+                </footer>
+            </div>
+        </div>
+    </section>
+ 
+
+    <section id="modal12" class="modal face" data-bs-backdrop="static" aria-hidden="true"
+        aria-labelledby="modal12Label">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <header class="modal-header bg-primary text-light">
+                    <h2 class="modal-title bg-primary" id="modal12Label">Added to Cart</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </header>
+
+                <main class="modal-body row">
+                    <div class="col-lg-6">
+                        <em><strong>Playstation Controller</strong></em>
+                        <figure>
+                            <img src="Images/ps5controller.jpg" width="85%" class="rounded m-1">
+                            <figcaption class="p-2"></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <em><strong>
+                                <p class="card-title"></p>
+                            </strong></em>
+                        <p><i class="card-subtitle"></i></p>
+                        <strong class="text-danger display-4 p-2">$59.99</strong>
+                    </div>
+                </main>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                    <a href="checkout.html" class="btn btn-warning">Click to buy!</a>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <section id="modal13" class="modal face" data-bs-backdrop="static" aria-hidden="true"
+        aria-labelledby="modal13Label">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <header class="modal-header bg-primary text-light">
+                    <h2 class="modal-title bg-primary" id="modal13Label">Added to Cart</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </header>
+
+                <main class="modal-body row">
+                    <div class="col-lg-6">
+                        <em><strong>Hyper X Gaming Keyboard</strong></em>
+                        <figure>
+                            <img src="Images/keyboard.jpg" width="85%" class="rounded m-1">
+                            <figcaption class="p-2"></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <em><strong>
+                                <p class="card-title"></p>
+                            </strong></em>
+                        <p><i class="card-subtitle"></i></p>
+                        <strong class="text-danger display-4 p-2">$43.99</strong>
+                    </div>
+                </main>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                    <a href="checkout.html" class="btn btn-warning">Click to buy!</a>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <section id="modal14" class="modal face" data-bs-backdrop="static" aria-hidden="true"
+        aria-labelledby="modal14Label">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <header class="modal-header bg-primary text-light">
+                    <h2 class="modal-title bg-primary" id="modal14Label">Added to Cart</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </header>
+
+                <main class="modal-body row">
+                    <div class="col-lg-6">
+                        <em><strong>HyperX Gaming Headphones</strong></em>
+                        <figure>
+                            <img src="Images/headphones.jpg" width="85%" class="rounded m-1">
+                            <figcaption class="p-2"></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <em><strong>
+                                <p class="card-title"></p>
+                            </strong></em>
+                        <p><i class="card-subtitle"></i></p>
+                        <strong class="text-danger display-4 p-2">$79.99</strong>
+                    </div>
+                </main>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                    <a href="checkout.html" class="btn btn-warning">Click to buy!</a>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <!-- Checkout Modal -->
+
+    <div class="modal fade" id="checkoutModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Checkout</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/2c4e3283f5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>

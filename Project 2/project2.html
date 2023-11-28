@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Store</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="checkout.html">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="accessories.html">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfront/5.3.45/css/materialdesignicons.css"
+        integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2c4e3283f5.js" crossorigin="anonymous"></script>
+    <style>
+        /* Custom CSS for additional styling */
+        body {
+            padding-top: 56px;
+        }
+
+        .carousel-item img {
+            max-height: 400px;
+            object-fit: cover;
+        }
+
+        .card-img-top {
+            max-height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="project2.html">Game Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#games">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="accessories.html">Accessories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="checkout.html">Checkout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section> 
+        <h2 class="test text-light display-2">Game Store</h2>
+        <img class="mx-auto" src="images/background image.jpg" width="100%" style="height: 87vh;">
+    </section>
+
+    <!-- Carousel -->
+    <div id="games" class="carousel slide mt-3" data-bs-ride="carousel" style="width: 17%; margin: auto;">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="images/blackops.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="images/crew.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="images/fortnite.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="images/forza.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="images/gta.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="images/minecraft.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="images/mw2.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="images/thelastofus.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="images/uncharted.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="images/undertale.jpg" class="d-block w-100">
+            </div>
+            <!-- Add more carousel items as needed -->
+        </div>
+    </div>
+
+    <!-- Cards Section -->
+    <main class="row">
+        <section>
+            <div class="container mt-4">
+                <div class="row">
+                    <!-- Cards -->
+                    <div class="vg col-lg-4 mb-4">
+                        <div class="card border-white">
+                            <img src="images/forza.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Forza Horizon 5</h5>
+                                <p class="card-text">Forza Horizon 5 is a 2021 racing video game developed by Playground
+                                    Games and published by Xbox Game Studios.
+                                    It is the fifth Forza Horizon title and twelfth main instalment in the Forza series.
+                                    The game is set in a fictionalised representation of Mexico. </p>
+                                <div class="text-center"><button type="button" class="btn btn-primary"
+                                        data-bs-target="#modal2" data-bs-toggle="modal">Buy Now</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vg col-lg-4 mb-4">
+                        <div class="card border-white">
+                            <img src="images/blackops.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Call of Duty: Black Ops II</h5>
+                                <p class="card-text">Call of Duty: Black Ops II is a 2012 first-person shooter video
+                                    game developed by Treyarch and published by Activision. It was released for
+                                    Microsoft Windows, PlayStation 3, and Xbox 360 on November 12, 2012, and for the Wii
+                                    U on November 18 in North America and November 30 in PAL regions. </p>
+                                <div class="text-center"><button type="button" class="btn btn-primary"
+                                        data-bs-target="#modal3" data-bs-toggle="modal">Buy Now</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vg col-lg-4 mb-4">
+                        <div class="card border-white">
+                            <img src="images/gta.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Grand theft Auto V</h5>
+                                <p class="card-text">Grand Theft Auto V is a 2013 action-adventure game developed by
+                                    Rockstar North and published by Rockstar Games. It is the seventh main entry in the
+                                    Grand Theft Auto series, following 2008's Grand Theft Auto IV, and the fifteenth
+                                    instalment overall.</p>
+                                <div class="text-center"><button type="button" class="btn btn-primary"
+                                        data-bs-target="#modal4" data-bs-toggle="modal">Buy Now</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vg col-lg-4 mb-4">
+                        <div class="card border-white">
+                            <img src="images/minecraft.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Minecraft: Java/Bedrock Edition</h5>
+                                <p class="card-text">Minecraft is a game made up of blocks, creatures, and community.
+                                    You can survive the night or build a work of art - the choice is all yours. In
+                                    Minecraft, players explore a blocky, procedurally generated, three-dimensional world
+                                    with virtually infinite terrain. Players can discover and extract raw materials,
+                                    craft tools and items, and build structures, earthworks, and machines.</p>
+                                <div class="text-center"><button type="button" class="btn btn-primary"
+                                        data-bs-target="#modal5" data-bs-toggle="modal">Buy Now</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vg col-lg-4 mb-4">
+                        <div class="card border-white">
+                            <img src="images/fortnite.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Fortnite</h5>
+                                <p class="card-text">Fortnite is an online video game developed by Epic Games and
+                                    released in 2017. It is available in three distinct game mode versions that
+                                    otherwise share the same general gameplay and game engine: Fortnite Battle Royale, a
+                                    free-to-play battle royale game in which up to 100 players fight to be the last
+                                    person standing.</p>
+                                <div class="text-center"><button type="button" class="btn btn-primary"
+                                        data-bs-target="#modal6" data-bs-toggle="modal">Buy Now</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vg col-lg-4 mb-4">
+                        <div class="card border-white">
+                            <img src="images/crew.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">The Crew: Motorfest</h5>
+                                <p class="card-text">The Crew Motorfest is a 2023 racing video game developed by Ubisoft
+                                    Ivory Tower and published by Ubisoft for PlayStation 4, PlayStation 5, Windows, Xbox
+                                    One, and Xbox Series X/S. It is the sequel to 2018's The Crew 2 and the third game
+                                    in The Crew series, and was released on September 14, 2023. </p>
+                                <div class="text-center"><button type="button" class="btn btn-primary"
+                                        data-bs-target="#modal7" data-bs-toggle="modal">Buy Now</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vg col-lg-4 mb-4">
+                        <div class="card border-white">
+                            <img src="images/thelastofus.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">The Last of Us</h5>
+                                <p class="card-text">The Last of Us is an action-adventure video game franchise created
+                                    by Naughty Dog and Sony Interactive Entertainment. The series is set in a
+                                    post-apocalyptic United States ravaged by cannibalistic creatures infected by a
+                                    mutated fungus in the genus Cordyceps.</p>
+                                <div class="text-center"><button type="button" class="btn btn-primary"
+                                        data-bs-target="#modal8" data-bs-toggle="modal">Buy Now</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vg col-lg-4 mb-4">
+                        <div class="card border-white">
+                            <img src="images/uncharted.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Uncharted 4</h5>
+                                <p class="card-text">Uncharted 4: A Thief's End is a 2016 action-adventure game
+                                    developed by Naughty Dog and published by Sony Computer Entertainment. It is the
+                                    fourth main entry in the Uncharted series. Set several years after the events of
+                                    Uncharted 3: Drake's Deception, players control Nathan Drake, a former treasure
+                                    hunter coaxed out of retirement by his presumed-dead brother Samuel. </p>
+                                <div class="text-center"><button type="button" class="btn btn-primary"
+                                        data-bs-target="#modal9" data-bs-toggle="modal">Buy Now</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vg col-lg-4 mb-4">
+                        <div class="card border-white">
+                            <img src="images/mw2.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Call of Duty: Modern warfare II</h5>
+                                <p class="card-text">Call of Duty: Modern Warfare 2 is a 2009 first-person shooter game
+                                    developed by Infinity Ward and published by Activision. It is the sixth installment
+                                    in the Call of Duty series and the direct sequel to Call of Duty 4: Modern Warfare.
+                                </p>
+                                <div class="text-center"><button type="button" class="btn btn-primary"
+                                        data-bs-target="#modal10" data-bs-toggle="modal">Buy Now</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--- Cards Checkout --->
+
+    <section id="modal2" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal2Label">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <header class="modal-header bg-primary text-light">
+                    <h2 class="modal-title bg-primary" id="modal2Label">Added to Cart</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </header>
+
+                <main class="modal-body row">
+                    <div class="col-lg-6">
+                        <em><strong>Forza Horizon 5</strong></em>
+                        <figure>
+                            <img src="Images/forza.jpg" width="85%" class="rounded m-1">
+                            <figcaption class="p-2"></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <em><strong>
+                                <p class="card-title"></p>
+                            </strong></em>
+                        <p><i class="card-subtitle"></i></p>
+                        <strong class="text-danger display-4 p-2">$54.99</strong>
+                    </div>
+                </main>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                    <a href="checkout.html" class="btn btn-warning">Click to buy!</a>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="modal3" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal2Label">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <header class="modal-header bg-primary text-light">
+                    <h2 class="modal-title bg-primary" id="modal2Label">Added to Cart</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </header>
+
+                <main class="modal-body row">
+                    <div class="col-lg-6">
+                        <em><strong>Call of Duty: Black Ops II</strong></em>
+                        <figure>
+                            <img src="Images/blackops.jpg" width="85%" class="rounded m-1">
+                            <figcaption class="p-2"></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <em><strong>
+                                <p class="card-title"></p>
+                            </strong></em>
+                        <p><i class="card-subtitle"></i></p>
+                        <strong class="text-danger display-4 p-2">$14.99</strong>
+                    </div>
+                </main>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                    <a href="checkout.html" class="btn btn-warning">Click to buy!</a>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="modal4" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal2Label">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <header class="modal-header bg-primary text-light">
+                    <h2 class="modal-title bg-primary" id="modal2Label">Added to Cart</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </header>
+
+                <main class="modal-body row">
+                    <div class="col-lg-6">
+                        <em><strong>Grand theft Auto V</strong></em>
+                        <figure>
+                            <img src="Images/gta.jpg" width="85%" class="rounded m-1">
+                            <figcaption class="p-2"></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <em><strong>
+                                <p class="card-title"></p>
+                            </strong></em>
+                        <p><i class="card-subtitle"></i></p>
+                        <strong class="text-danger display-4 p-2">$59.99</strong>
+                    </div>
+                </main>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                    <a href="checkout.html" class="btn btn-warning">Click to buy!</a>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="modal5" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal2Label">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <header class="modal-header bg-primary text-light">
+                    <h2 class="modal-title bg-primary" id="modal2Label">Added to Cart</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </header>
+
+                <main class="modal-body row">
+                    <div class="col-lg-6">
+                        <em><strong>Minecraft: Java/Bedrock Edition</strong></em>
+                        <figure>
+                            <img src="Images/minecraft.jpg" width="85%" class="rounded m-1">
+                            <figcaption class="p-2"></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <em><strong>
+                                <p class="card-title"></p>
+                            </strong></em>
+                        <p><i class="card-subtitle"></i></p>
+                        <strong class="text-danger display-4 p-2">$20.00</strong>
+                    </div>
+                </main>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                    <a href="checkout.html" class="btn btn-warning">Click to buy!</a>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="modal6" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal2Label">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <header class="modal-header bg-primary text-light">
+                    <h2 class="modal-title bg-primary" id="modal2Label">Added to Cart</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </header>
+
+                <main class="modal-body row">
+                    <div class="col-lg-6">
+                        <em><strong>Fortnite</strong></em>
+                        <figure>
+                            <img src="Images/fortnite.jpg" width="85%" class="rounded m-1">
+                            <figcaption class="p-2"></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <em><strong>
+                                <p class="card-title"></p>
+                            </strong></em>
+                        <p><i class="card-subtitle"></i></p>
+                        <strong class="text-danger display-4 p-2">$0.00</strong>
+                    </div>
+                </main>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                    <a href="checkout.html" class="btn btn-warning">Click to buy!</a>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="modal7" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal2Label">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <header class="modal-header bg-primary text-light">
+                    <h2 class="modal-title bg-primary" id="modal2Label">Added to Cart</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </header>
+
+                <main class="modal-body row">
+                    <div class="col-lg-6">
+                        <em><strong>The Crew: Motorfest</strong></em>
+                        <figure>
+                            <img src="Images/crew.jpg" width="85%" class="rounded m-1">
+                            <figcaption class="p-2"></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <em><strong>
+                                <p class="card-title"></p>
+                            </strong></em>
+                        <p><i class="card-subtitle"></i></p>
+                        <strong class="text-danger display-4 p-2">$59.99</strong>
+                    </div>
+                </main>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                    <a href="checkout.html" class="btn btn-warning">Click to buy!</a>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="modal8" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal2Label">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <header class="modal-header bg-primary text-light">
+                    <h2 class="modal-title bg-primary" id="modal2Label">Added to Cart</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </header>
+
+                <main class="modal-body row">
+                    <div class="col-lg-6">
+                        <em><strong>The Last of Us</strong></em>
+                        <figure>
+                            <img src="Images/thelastofus.jpg" width="85%" class="rounded m-1">
+                            <figcaption class="p-2"></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <em><strong>
+                                <p class="card-title"></p>
+                            </strong></em>
+                        <p><i class="card-subtitle"></i></p>
+                        <strong class="text-danger display-4 p-2">$39.99</strong>
+                    </div>
+                </main>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                    <a href="checkout.html" class="btn btn-warning">Click to buy!</a>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="modal9" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal2Label">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <header class="modal-header bg-primary text-light">
+                    <h2 class="modal-title bg-primary" id="modal2Label">Added to Cart</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </header>
+
+                <main class="modal-body row">
+                    <div class="col-lg-6">
+                        <em><strong>Uncharted 4</strong></em>
+                        <figure>
+                            <img src="Images/uncharted.jpg" width="85%" class="rounded m-1">
+                            <figcaption class="p-2"></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <em><strong>
+                                <p class="card-title"></p>
+                            </strong></em>
+                        <p><i class="card-subtitle"></i></p>
+                        <strong class="text-danger display-4 p-2">$34.99</strong>
+                    </div>
+                </main>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                    <a href="checkout.html" class="btn btn-warning">Click to buy!</a>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="modal10" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal2Label">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <header class="modal-header bg-primary text-light">
+                    <h2 class="modal-title bg-primary" id="modal2Label">Added to Cart</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </header>
+
+                <main class="modal-body row">
+                    <div class="col-lg-6">
+                        <em><strong>Call of Duty: Modern warfare II</strong></em>
+                        <figure>
+                            <img src="Images/mw2.jpg" width="85%" class="rounded m-1">
+                            <figcaption class="p-2"></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <em><strong>
+                                <p class="card-title"></p>
+                            </strong></em>
+                        <p><i class="card-subtitle"></i></p>
+                        <strong class="text-danger display-4 p-2">$14.99</strong>
+                    </div>
+                </main>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                    <a href="checkout.html" class="btn btn-warning">Click to buy!</a>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <!-- Checkout Modal -->
+
+    <div class="modal fade" id="checkoutModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Checkout</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3">
+        <p class="text-center">2023 Game Store. All rights reserved.</p>
+        <div class="container p-4 pb-0">
+            <section class="mb-4 ">
+                <a class="btn btn-outline-light btn-floating m-1" role="button"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" role="button"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" role="button"><i class="fa-brands fa-threads"></i></a>
+            </section>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle (Bootstrap JS + Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

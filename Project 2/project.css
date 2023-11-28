@@ -1,0 +1,22 @@
+.vg{
+    transition-duration: 0.2s;
+}
+.vg:hover{
+    transition-duration: 0.4s;
+    transform: scale(0.95);
+}
+.vh{
+    transition: ease-in-out 2s;
+}
+.vh:hover{
+    transform: scale(1.3);
+}
+.test{
+    transition: ease-in-out 1s;
+    position: absolute;
+    left: 42%;
+    top: 40%;
+}
+.test:hover{
+    transform: rotate(360deg);
+}
